@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: AppTheme.darkTheme,
-      title: 'Akshit Madan👋 | Developer & Content Creator',
+      title: 'Sreehari R👋 | Flutter Developer & AI ML Student',
       debugShowCheckedModeBanner: false,
       home: const HomePage(),
     );

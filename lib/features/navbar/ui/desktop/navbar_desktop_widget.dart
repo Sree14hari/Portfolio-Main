@@ -1,7 +1,6 @@
 import 'package:akshit_madan/design/utils/app_colors.dart';
 import 'package:akshit_madan/design/widgets/buttons/app_outlined_button.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'dart:html' as html;
 
 class NavBarDesktopWidget extends StatelessWidget {
@@ -15,35 +14,48 @@ class NavBarDesktopWidget extends StatelessWidget {
         color: AppColors.navBarColor,
         child: Center(
             child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
+            const SizedBox(
+              width: 10,
+            ),
             RichText(
               text: TextSpan(
                   style:
                       const TextStyle(fontFamily: 'Preah', color: Colors.white),
                   children: [
-                    const TextSpan(text: 'Enrollments for '),
+                    const TextSpan(text: 'For projects and works '),
                     TextSpan(
-                      text: 'Beginner to Advanced Flutter Hindi Course ',
+                      text: 'connect with me on ',
                       style: TextStyle(
                           fontFamily: 'Preah', color: AppColors.purple),
                     ),
-                    const TextSpan(text: 'are open! '),
+                    const TextSpan(text: '👉  '),
                   ]),
             ),
             const SizedBox(width: 6),
             AppOutlinedButton(
-              title: 'Enroll Here',
+              title: 'Connect with me',
               onTap: () {
                 try {
-                  html.window.open(
-                      'https://akshitmadan9134.graphy.com/courses/Learn-to-make-apps-in-Flutter-6443deb6e4b01162ff92ed9d',
-                      '_blank');
+                  html.window
+                      .open('https://www.linkedin.com/in/sree14hari', '_blank');
                 } catch (e) {
                   print(e.toString());
                 }
               },
-            )
+            ),
+            const Spacer(),
+            RichText(
+              text: TextSpan(
+                  style: TextStyle(
+                      fontFamily: 'Preah',
+                      color: AppColors.purple,
+                      fontSize: 30),
+                  children: const [
+                    TextSpan(text: 'SHR  '),
+                  ]),
+            ),
           ],
         )
             // RichText(

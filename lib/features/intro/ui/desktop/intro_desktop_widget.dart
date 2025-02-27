@@ -4,7 +4,6 @@ import 'package:akshit_madan/design/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart';
 import 'package:social_media_flutter/social_media_flutter.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'dart:html' as html;
 
 class IntroDesktopWidget extends StatelessWidget {
@@ -49,28 +48,29 @@ class IntroDesktopWidget extends StatelessWidget {
                             children: [
                               const TextSpan(text: 'I am '),
                               TextSpan(
-                                  text: 'Akshit Madan ',
+                                  text: 'Sreehari R',
                                   style: TextStyle(color: AppColors.purple))
                             ]),
                       ),
                       const SizedBox(height: 20),
-                      const Text(
-                        'A Solopreneur,',
-                        style: TextStyle(decoration: TextDecoration.underline),
-                      ),
+                      // const Text(
+                      //   'A Solopreneur,',
+                      //   style: TextStyle(decoration: TextDecoration.underline),
+                      // ),
                       RichText(
                         text: TextSpan(
                             style: TextStyle(
                                 color: Colors.white,
                                 height: 1.2,
                                 fontFamily: 'Preah',
-                                fontSize: w / 20,
+                                fontSize: w / 40,
                                 fontWeight: FontWeight.bold),
                             children: [
-                              const TextSpan(text: 'Crafting code to bring\n'),
-                              const TextSpan(text: 'ideas to '),
+                              const TextSpan(text: '"Designing sleek UIs  \n'),
+                              const TextSpan(
+                                  text: '& building intelligent apps—where\n '),
                               TextSpan(
-                                  text: 'life',
+                                  text: 'Flutter meets AI!"\t',
                                   style: TextStyle(color: AppColors.purple)),
                               const TextSpan(text: '...')
                             ]),
@@ -86,7 +86,7 @@ class IntroDesktopWidget extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "I'm a Software Engineer & ",
+                    "I'm a Flutter Developer & ",
                     style: TextStyle(
                         color: Colors.white,
                         height: 1.2,
@@ -103,28 +103,28 @@ class IntroDesktopWidget extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                         children: const [
                           TextSpan(
-                              text: ' a Tech YouTuber ',
+                              text: ' an AI/ML Enthusiast,  ',
                               style: TextStyle(
                                   backgroundColor: Colors.yellowAccent,
                                   color: Colors.black)),
                           TextSpan(
-                              text: ' who loves sharing his coding journey!')
+                              text:
+                                  ' crafting intuitive UIs & smart applications!')
                         ]),
                   ),
                   const SizedBox(height: 20),
                   SizedBox(
                     child: Row(
                       children: [
-                        socialIcon('https://www.instagram.com/akshitmadan_/',
+                        socialIcon('https://www.instagram.com/s_ree.har_i',
                             SocialIconsFlutter.instagram),
-                        socialIcon('https://github.com/akmadan',
+                        socialIcon('https://github.com/Sree14hari',
                             SocialIconsFlutter.github),
-                        socialIcon(
-                            'https://www.linkedin.com/in/akshit-madan-394a82a6/',
+                        socialIcon('https://www.linkedin.com/in/sree14hari',
                             SocialIconsFlutter.linkedin_box),
-                        socialIcon(
-                            'https://www.youtube.com/channel/UCBlphb6_k7X1P28OCYXMsWg',
-                            SocialIconsFlutter.youtube)
+                        // socialIcon(
+                        //     'https://www.youtube.com/channel/UCBlphb6_k7X1P28OCYXMsWg',
+                        //     SocialIconsFlutter.youtube)
                       ],
                     ),
                   )

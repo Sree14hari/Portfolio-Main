@@ -2,7 +2,6 @@ import 'package:akshit_madan/design/constants/app_images.dart';
 import 'package:akshit_madan/design/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:social_media_flutter/social_media_flutter.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'dart:html' as html;
 
 class IntroMobileWidget extends StatelessWidget {
@@ -41,7 +40,7 @@ class IntroMobileWidget extends StatelessWidget {
                         height: 1),
                     children: [
                       TextSpan(
-                          text: 'Akshit Madan ',
+                          text: 'Sreehari R ',
                           style: TextStyle(color: AppColors.purple))
                     ]),
               ),
@@ -49,26 +48,25 @@ class IntroMobileWidget extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    socialIcon('https://www.instagram.com/akshitmadan_/',
+                    socialIcon('https://www.instagram.com/s_ree.har_i',
                         SocialIconsFlutter.instagram),
-                    socialIcon('https://github.com/akmadan',
+                    socialIcon('https://github.com/Sree14hari',
                         SocialIconsFlutter.github),
-                    socialIcon(
-                        'https://www.linkedin.com/in/akshit-madan-394a82a6/',
+                    socialIcon('https://www.linkedin.com/in/sree14hari',
                         SocialIconsFlutter.linkedin_box),
-                    socialIcon(
-                        'https://www.youtube.com/channel/UCBlphb6_k7X1P28OCYXMsWg',
-                        SocialIconsFlutter.youtube)
+                    // socialIcon(
+                    //     'https://www.youtube.com/channel/UCBlphb6_k7X1P28OCYXMsWg',
+                    //     SocialIconsFlutter.youtube)
                   ],
                 ),
               ),
-              const SizedBox(height: 30),
-              const Text(
-                'A Solopreneur,',
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                    decoration: TextDecoration.underline, fontSize: 14),
-              ),
+              const SizedBox(height: 20),
+              // const Text(
+              //   'A Solopreneur,',
+              //   textAlign: TextAlign.center,
+              //   style: TextStyle(
+              //       decoration: TextDecoration.underline, fontSize: 14),
+              // ),
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
@@ -76,13 +74,14 @@ class IntroMobileWidget extends StatelessWidget {
                         color: Colors.white,
                         height: 1.4,
                         fontFamily: 'Preah',
-                        fontSize: 32,
+                        fontSize: 20,
                         fontWeight: FontWeight.bold),
                     children: [
-                      const TextSpan(text: 'Crafting code to bring '),
-                      const TextSpan(text: 'ideas to '),
+                      const TextSpan(text: 'Designing sleek UIs '),
+                      const TextSpan(
+                          text: '& building intelligent apps—where '),
                       TextSpan(
-                          text: 'life',
+                          text: 'Flutter meets AI !"\t',
                           style: TextStyle(color: AppColors.purple)),
                       const TextSpan(text: '...')
                     ]),
@@ -92,7 +91,7 @@ class IntroMobileWidget extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   const Text(
-                    "I'm a Software Engineer & ",
+                    "I'm a Flutter Developer &",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                         color: Colors.white, fontFamily: 'Preah', fontSize: 16),
@@ -107,12 +106,13 @@ class IntroMobileWidget extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                         children: [
                           TextSpan(
-                              text: ' a Tech YouTuber ',
+                              text: ' an AI/ML Enthusiast, ',
                               style: TextStyle(
                                   backgroundColor: Colors.yellowAccent,
                                   color: Colors.black)),
                           TextSpan(
-                              text: ' who loves sharing his coding journey!')
+                              text:
+                                  '  crafting intuitive UIs & smart applications!')
                         ]),
                   ),
                 ],

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "805874530477",
+    "project_id": "sree14hari-portfolio",
+    "storage_bucket": "sree14hari-portfolio.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805874530477:android:1635758c989e74f563ee24",
+        "android_client_info": {
+          "package_name": "com.example.akshit_madan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAupMurVLnyjvXwcFoWoiS6YSG_mjhrBMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -27,7 +27,7 @@ class _VideosMobileWidgetState extends State<VideosMobileWidget> {
         margin: const EdgeInsets.only(bottom: 40),
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           const Text(
-            'Latest Videos',
+            'Reopos and Projects',
             style: TextStyle(fontSize: 24),
           ),
           const SizedBox(height: 20),
@@ -67,7 +67,7 @@ class _VideosMobileWidgetState extends State<VideosMobileWidget> {
   Widget videoContainer(String imageUrl, String title, videoId) {
     return InkWell(
       onTap: () {
-        launchUrl(Uri.parse('https://youtu.be/$videoId'));
+        launchUrl(Uri.parse(videoId));
       },
       child: Container(
         margin: const EdgeInsets.all(8),

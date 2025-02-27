@@ -1,7 +1,6 @@
 import 'package:akshit_madan/design/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:social_media_flutter/social_media_flutter.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'dart:html' as html;
 
 class ContactUsDesktopWidget extends StatelessWidget {
@@ -17,11 +16,10 @@ class ContactUsDesktopWidget extends StatelessWidget {
           style: TextStyle(fontSize: 40),
         ),
         const SizedBox(height: 20),
-        const Text(
-            "If you are a student, entrepreneur or just want to chat with me, drop me an interesting mail at 👇"),
+        const Text("Email me at  👇"),
         const SizedBox(height: 8),
         Text(
-          'akmadan1717@gmail.com',
+          'sreehari14shr@gmail.com',
           style: TextStyle(color: AppColors.purple),
         ),
         const SizedBox(height: 20),
@@ -29,15 +27,15 @@ class ContactUsDesktopWidget extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              socialIcon('https://www.instagram.com/akshitmadan_/',
+              socialIcon('https://www.instagram.com/s_ree.har_i',
                   SocialIconsFlutter.instagram),
               socialIcon(
-                  'https://github.com/akmadan', SocialIconsFlutter.github),
-              socialIcon('https://www.linkedin.com/in/akshit-madan-394a82a6/',
+                  'https://github.com/Sree14hari', SocialIconsFlutter.github),
+              socialIcon('https://www.linkedin.com/in/sree14hari',
                   SocialIconsFlutter.linkedin_box),
-              socialIcon(
-                  'https://www.youtube.com/channel/UCBlphb6_k7X1P28OCYXMsWg',
-                  SocialIconsFlutter.youtube)
+              // socialIcon(
+              //     'https://www.youtube.com/channel/UCBlphb6_k7X1P28OCYXMsWg',
+              //     SocialIconsFlutter.youtube)
             ],
           ),
         ),
@@ -47,7 +45,7 @@ class ContactUsDesktopWidget extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('Coded by Akshit with 💚 in India'),
+              Text('©️ Sreehari R'),
             ],
           ),
         )

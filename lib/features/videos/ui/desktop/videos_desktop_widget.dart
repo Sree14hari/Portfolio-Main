@@ -25,9 +25,9 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
   Widget build(BuildContext context) {
     return Container(
         margin: const EdgeInsets.only(bottom: 40),
-        child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        child: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
           const Text(
-            'Latest Videos',
+            'Repositories and Projects',
             style: TextStyle(fontSize: 40),
           ),
           const SizedBox(height: 40),
@@ -65,7 +65,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
   Widget videoContainer(String imageUrl, String title, String videoId) {
     return InkWell(
       onTap: () {
-        launchUrl(Uri.parse('https://youtu.be/$videoId'));
+        launchUrl(Uri.parse(videoId));
       },
       child: Container(
         margin: const EdgeInsets.all(8),

@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "akshit-madan-website"
-  }
+    "default": "sree14hari-portfolio",
+    "portfolio": "sree14hari-portfolio"
+  },
+  "targets": {},
+  "etags": {}
 }

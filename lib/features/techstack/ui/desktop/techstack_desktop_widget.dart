@@ -21,21 +21,20 @@ class TechstackDesktopWidget extends StatelessWidget {
                       color: Colors.white, fontFamily: 'Preah', fontSize: 24),
                   children: [
                     const TextSpan(
-                        text:
-                            'I have attained expertise in an array of cutting-edge '),
+                        text: 'I am skilled in an array of cutting-edge  '),
                     TextSpan(
-                        text: 'tech stacks \n',
+                        text: 'technologies, \n',
                         style: TextStyle(color: AppColors.purple)),
                     const TextSpan(
                         text:
-                            'empowering me to craft seamless and innovative solutions.'),
+                            'enabling me to craft intuitive and intelligent solutions.'),
                   ]),
             ),
             const SizedBox(height: 20),
             Container(
               // width: ,
               child: const Text(
-                "I have served as the Founder of growmonks, overseeing the entire project lifecycle from ideation to successful client project delivery. As a Flutter Engineer at Tickertape(10M+), where I had the privilege of developing for a huge user base. I gained invaluable experience and deepened my understanding of mobile development concepts.",
+                "As a Flutter Developer, AI/ML Enthusiast, and Front-End UI Designer, I am passionate about building seamless user experiences and smart applications. I thrive on learning new technologies and applying AI-driven innovations to create impactful digital solutions",
                 textAlign: TextAlign.center,
               ),
             ),
@@ -45,13 +44,13 @@ class TechstackDesktopWidget extends StatelessWidget {
                 Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: List.generate(
-                        7,
+                        5,
                         (index) => techStackCircle(
                             techStackImages.values.toList()[index]))),
                 Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: List.generate(
-                        6,
+                        0,
                         (index) => techStackCircle(techStackImages.values
                             .toList()
                             .reversed

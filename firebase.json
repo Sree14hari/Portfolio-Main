@@ -12,5 +12,28 @@
         "destination": "/index.html"
       }
     ]
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "sree14hari-portfolio",
+          "appId": "1:805874530477:android:1635758c989e74f563ee24",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "sree14hari-portfolio",
+          "configurations": {
+            "android": "1:805874530477:android:1635758c989e74f563ee24",
+            "ios": "1:805874530477:ios:6e29d776ab9f329963ee24",
+            "macos": "1:805874530477:ios:6e29d776ab9f329963ee24",
+            "web": "1:805874530477:web:e24d830b5ddbf39f63ee24",
+            "windows": "1:805874530477:web:246690d9b2c29dd563ee24"
+          }
+        }
+      }
+    }
   }
 }
