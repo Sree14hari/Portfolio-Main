@@ -11,9 +11,14 @@ Map<String, dynamic> sampleVideoResult = {
       "thumbnail_url": "https://i.postimg.cc/fThbzQ2S/port.png"
     },
     {
-      "video_id": "https://github.com/Sree14hari/OS-KTU.git",
-      "title": "Ktu Os Lab Program 2019",
-      "thumbnail_url": "https://i.postimg.cc/KYYz6799/os.png"
+      "video_id": "https://github.com/Sree14hari/PLANTRICZ.git",
+      "title": "Plantricz App",
+      "thumbnail_url": "https://i.postimg.cc/1tv5gffJ/plantricz.png"
+    },
+    {
+      "video_id": "https://github.com/Sree14hari/Weather-App.git",
+      "title": "Plantricz App",
+      "thumbnail_url": "https://i.postimg.cc/SsRbvVxf/image.png"
     },
     // {
     //   "video_id": "ltLJ1AB-eww",
