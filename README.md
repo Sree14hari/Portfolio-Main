@@ -1,5 +1,3 @@
-# akshit_madan
-
 A new Flutter project.
 
 ## Getting Started
